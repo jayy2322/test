@@ -4,85 +4,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SmileCare Dental Clinic</title>
+    <title>Shree Health & Dental Studio | Premium Dental Care</title>
 
-    <link rel="stylesheet" href="style.css">
+    <meta
+        name="description"
+        content="Shree Health & Dental Studio provides compassionate, modern dental care in Nigdi, Pimpri-Chinchwad."
+    >
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-<header class="navbar">
-    <div class="container nav-container">
+<header class="navbar" id="navbar">
 
-        <div class="logo">
-            <span>🦷</span>
-            <div>
-                <h2>SmileCare</h2>
-                <small>Dental Clinic</small>
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+
+            <div class="logo-mark">
+                <span>✦</span>
             </div>
-        </div>
 
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="logo-text">
+                <strong>Shree</strong>
+                <span>Health & Dental Studio</span>
+            </div>
+
+        </a>
+
+        <nav class="desktop-nav">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Treatments</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+
         </nav>
 
-        <a href="#appointment" class="nav-btn">
+        <a
+            href="tel:08857808384"
+            class="nav-button"
+        >
             Book Appointment
         </a>
 
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open menu"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
     </div>
+
 </header>
 
 
-<!-- ================= HERO ================= -->
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Treatments</a>
+    <a href="#why-us">Why Us</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+
+    <a
+        href="tel:08857808384"
+        class="mobile-book"
+    >
+        Book Appointment
+    </a>
+
+</div>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<main>
 
 <section class="hero" id="home">
 
-    <div class="container hero-content">
+    <div class="hero-background">
 
-        <div class="hero-text">
+        <img
+            src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlD33q3bMPCCY1NaB7hznwmwmGItJbqF3wx_hmkdZndQ1CaYqtXLQ3dLMvzROMzZ1n8MUiOKR_q5N3FxG5sGJzl-1JJd24IR_cKlfJbIa8YrS8NhTNx-Zn9uxeTIYZF6t31Z3PG=w426-h240-k-no"
+            alt="Shree Health & Dental Studio"
+        >
 
-            <p class="tagline">YOUR SMILE, OUR PRIORITY</p>
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span></span>
+                MODERN DENTAL CARE · NIGDI
+            </div>
 
             <h1>
-                A Healthy Smile
-                <span>Starts Here.</span>
+                Your smile
+                <em>deserves</em>
+                exceptional care.
             </h1>
 
-            <p class="hero-description">
-                Professional dental care with modern technology,
-                experienced dentists, and a comfortable environment
-                for the whole family.
+            <p>
+                Gentle dentistry, advanced treatment and a
+                patient-first experience designed around
+                your comfort.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#appointment" class="primary-btn">
-                    Book Appointment
+            <div class="hero-actions">
+
+                <a
+                    href="tel:08857808384"
+                    class="primary-button"
+                >
+                    Book Your Visit
+                    <span>↗</span>
                 </a>
 
-                <a href="#services" class="secondary-btn">
-                    Our Services
+                <a
+                    href="#services"
+                    class="secondary-button"
+                >
+                    Explore Treatments
                 </a>
+
+            </div>
+
+            <div class="hero-trust">
+
+                <div class="rating">
+
+                    <strong>4.9</strong>
+
+                    <div>
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <span>
+                            167+ Google Reviews
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="trust-divider"></div>
+
+                <div class="trust-text">
+                    Patient-first<br>
+                    dental care
+                </div>
+
             </div>
 
         </div>
 
-        <div class="hero-image">
-            <img
-                src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=80"
-                alt="Dentist treating patient"
-            >
+    </div>
+
+    <div class="hero-scroll">
+        <span>SCROLL TO DISCOVER</span>
+        <div></div>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro-section">
+
+    <div class="container intro-grid">
+
+        <div class="section-number">
+            01
+        </div>
+
+        <div>
+
+            <p class="small-label">
+                A DIFFERENT KIND OF DENTAL EXPERIENCE
+            </p>
+
+            <h2>
+                Dentistry that puts
+                <span>you first.</span>
+            </h2>
+
+        </div>
+
+        <div class="intro-description">
+
+            <p>
+                At Shree Health & Dental Studio, we believe
+                excellent dentistry is about more than treating
+                teeth. It is about creating a comfortable,
+                reassuring experience for every patient.
+            </p>
+
+            <a href="#about" class="text-link">
+                Discover our approach →
+            </a>
+
         </div>
 
     </div>
@@ -90,54 +246,71 @@
 </section>
 
 
-<!-- ================= ABOUT ================= -->
+<!-- =====================================================
+     ABOUT
+===================================================== -->
 
-<section class="about section" id="about">
+<section class="about-section" id="about">
 
     <div class="container about-grid">
 
         <div class="about-image">
-            <img
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80"
-                alt="Modern dental clinic"
-            >
+
+            <div class="image-frame">
+
+                <img
+                    src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmz6DI1CfPHb0XqPrAb2bqmXQkMH2ZDhLZ6pXf_TA6-0CW6BhWGQQqdpjiw1J0fq0PbBuxXTs4mFCgAwTvh53oApeqRl1gqMc0GavogRqLiJcrl5Bmb_ZeQTM5XggCC9hYbNaY=w224-h398-k-no"
+                    alt="Dental treatment at Shree Health & Dental Studio"
+                >
+
+            </div>
+
+            <div class="experience-card">
+
+                <strong>01</strong>
+
+                <span>
+                    Patient-first<br>
+                    experience
+                </span>
+
+            </div>
+
         </div>
 
-        <div class="about-text">
 
-            <p class="section-label">ABOUT OUR CLINIC</p>
+        <div class="about-content">
+
+            <p class="small-label">
+                ABOUT SHREE HEALTH & DENTAL STUDIO
+            </p>
 
             <h2>
-                Modern Dentistry With
-                <span>Personal Care</span>
+                Comfortable care.
+                <br>
+                <em>Confident smiles.</em>
             </h2>
 
             <p>
-                At SmileCare Dental Clinic, we believe that visiting
-                the dentist should be comfortable, simple, and stress-free.
+                We combine modern dental techniques with
+                a gentle and empathetic approach to make
+                every visit as comfortable as possible.
             </p>
 
             <p>
-                Our experienced dental team provides comprehensive
-                dental care using modern equipment and advanced
-                treatment techniques.
+                From routine check-ups and fillings to
+                root canal treatments, orthodontics and
+                dental implants, our focus remains simple:
+                providing the right treatment for you.
             </p>
 
-            <div class="about-points">
+            <div class="about-signature">
+
+                <div class="signature-line"></div>
 
                 <div>
-                    <strong>10+</strong>
-                    <span>Years Experience</span>
-                </div>
-
-                <div>
-                    <strong>5K+</strong>
-                    <span>Happy Patients</span>
-                </div>
-
-                <div>
-                    <strong>15+</strong>
-                    <span>Dental Services</span>
+                    <strong>Shree Health & Dental Studio</strong>
+                    <span>Care beyond treatment.</span>
                 </div>
 
             </div>
@@ -149,20 +322,74 @@
 </section>
 
 
-<!-- ================= SERVICES ================= -->
+<!-- =====================================================
+     STATS
+===================================================== -->
 
-<section class="services section" id="services">
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+
+            <strong>4.9</strong>
+            <span>Google Rating</span>
+
+        </div>
+
+        <div class="stat">
+
+            <strong>167+</strong>
+            <span>Patient Reviews</span>
+
+        </div>
+
+        <div class="stat">
+
+            <strong>100%</strong>
+            <span>Patient Focused</span>
+
+        </div>
+
+        <div class="stat">
+
+            <strong>24/7</strong>
+            <span>Emergency Enquiries</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="services-section" id="services">
 
     <div class="container">
 
         <div class="section-heading">
 
-            <p class="section-label">WHAT WE OFFER</p>
+            <div>
 
-            <h2>Our Dental Services</h2>
+                <p class="small-label">
+                    OUR TREATMENTS
+                </p>
+
+                <h2>
+                    Complete care for
+                    <em>your smile.</em>
+                </h2>
+
+            </div>
 
             <p>
-                Complete dental care for you and your family.
+                From preventive care to advanced dental
+                treatments, we help you maintain a healthy,
+                confident smile.
             </p>
 
         </div>
@@ -170,100 +397,160 @@
 
         <div class="services-grid">
 
-            <div class="service-card">
+            <article class="service-card featured">
 
-                <div class="service-icon">🦷</div>
+                <div class="service-number">
+                    01
+                </div>
 
-                <h3>General Dentistry</h3>
+                <div class="service-icon">
+                    ✦
+                </div>
 
-                <p>
-                    Complete dental examinations, cleaning,
-                    fillings, and preventive dental care.
-                </p>
-
-                <a href="#appointment">Learn More →</a>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="service-icon">✨</div>
-
-                <h3>Teeth Whitening</h3>
+                <h3>
+                    Root Canal Treatment
+                </h3>
 
                 <p>
-                    Professional teeth whitening treatments
-                    for a brighter and more confident smile.
+                    Modern, careful treatment designed to
+                    save infected teeth and restore comfort.
                 </p>
 
-                <a href="#appointment">Learn More →</a>
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
 
-            </div>
+            </article>
 
 
-            <div class="service-card">
+            <article class="service-card">
 
-                <div class="service-icon">😁</div>
+                <div class="service-number">
+                    02
+                </div>
 
-                <h3>Cosmetic Dentistry</h3>
+                <div class="service-icon">
+                    ◇
+                </div>
+
+                <h3>
+                    Tooth Coloured Fillings
+                </h3>
 
                 <p>
-                    Improve the appearance of your smile with
-                    modern cosmetic dental treatments.
+                    Natural-looking composite fillings for
+                    cavities and damaged teeth.
                 </p>
 
-                <a href="#appointment">Learn More →</a>
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
 
-            </div>
+            </article>
 
 
-            <div class="service-card">
+            <article class="service-card">
 
-                <div class="service-icon">🩺</div>
+                <div class="service-number">
+                    03
+                </div>
 
-                <h3>Root Canal</h3>
+                <div class="service-icon">
+                    +
+                </div>
+
+                <h3>
+                    Dental Implants
+                </h3>
 
                 <p>
-                    Comfortable and effective root canal
-                    treatment to protect damaged teeth.
+                    Restore missing teeth with comfortable
+                    and natural-looking dental solutions.
                 </p>
 
-                <a href="#appointment">Learn More →</a>
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
 
-            </div>
+            </article>
 
 
-            <div class="service-card">
+            <article class="service-card">
 
-                <div class="service-icon">🦷</div>
+                <div class="service-number">
+                    04
+                </div>
 
-                <h3>Dental Implants</h3>
+                <div class="service-icon">
+                    ∞
+                </div>
+
+                <h3>
+                    Orthodontic Treatment
+                </h3>
 
                 <p>
-                    Reliable dental implant solutions designed
-                    to restore function and appearance.
+                    Personalized solutions to improve
+                    tooth alignment and your smile.
                 </p>
 
-                <a href="#appointment">Learn More →</a>
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
 
-            </div>
+            </article>
 
 
-            <div class="service-card">
+            <article class="service-card">
 
-                <div class="service-icon">👶</div>
+                <div class="service-number">
+                    05
+                </div>
 
-                <h3>Kids Dentistry</h3>
+                <div class="service-icon">
+                    ○
+                </div>
+
+                <h3>
+                    Tooth Removal
+                </h3>
 
                 <p>
-                    Gentle and friendly dental care specially
-                    designed for children.
+                    Gentle extraction procedures with
+                    emphasis on patient comfort.
                 </p>
 
-                <a href="#appointment">Learn More →</a>
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
 
-            </div>
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-number">
+                    06
+                </div>
+
+                <div class="service-icon">
+                    ◌
+                </div>
+
+                <h3>
+                    Preventive Dentistry
+                </h3>
+
+                <p>
+                    Regular check-ups and preventive care
+                    to keep your teeth healthy.
+                </p>
+
+                <a href="tel:08857808384">
+                    Enquire now →
+                </a>
+
+            </article>
 
         </div>
 
@@ -272,17 +559,63 @@
 </section>
 
 
-<!-- ================= WHY US ================= -->
+<!-- =====================================================
+     EMERGENCY CTA
+===================================================== -->
 
-<section class="why-us section" id="why-us">
+<section class="emergency-section">
+
+    <div class="container emergency-inner">
+
+        <div class="emergency-icon">
+            +
+        </div>
+
+        <div>
+
+            <p class="small-label">
+                NEED URGENT DENTAL CARE?
+            </p>
+
+            <h2>
+                Don't let tooth pain
+                <em>wait.</em>
+            </h2>
+
+        </div>
+
+        <a
+            href="tel:08857808384"
+            class="white-button"
+        >
+            Call the Clinic
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     WHY US
+===================================================== -->
+
+<section class="why-section" id="why-us">
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="section-heading centered">
 
-            <p class="section-label">WHY CHOOSE US</p>
+            <p class="small-label">
+                WHY PATIENTS CHOOSE US
+            </p>
 
-            <h2>Dental Care You Can Trust</h2>
+            <h2>
+                More than a dental clinic.
+                <br>
+                <em>A place to feel comfortable.</em>
+            </h2>
 
         </div>
 
@@ -290,42 +623,67 @@
         <div class="why-grid">
 
             <div class="why-card">
-                <div class="why-icon">👨‍⚕️</div>
-                <h3>Experienced Dentists</h3>
+
+                <span>01</span>
+
+                <h3>
+                    Gentle Approach
+                </h3>
+
                 <p>
-                    Our dental professionals are experienced,
-                    skilled, and committed to patient care.
+                    We understand dental anxiety and
+                    take time to make every patient feel
+                    comfortable.
                 </p>
+
             </div>
 
 
             <div class="why-card">
-                <div class="why-icon">🏥</div>
-                <h3>Modern Clinic</h3>
+
+                <span>02</span>
+
+                <h3>
+                    Clear Guidance
+                </h3>
+
                 <p>
-                    We use modern dental equipment and
-                    comfortable treatment facilities.
+                    Treatments are explained clearly so
+                    you can make informed decisions.
                 </p>
+
             </div>
 
 
             <div class="why-card">
-                <div class="why-icon">❤️</div>
-                <h3>Patient First</h3>
+
+                <span>03</span>
+
+                <h3>
+                    Modern Treatment
+                </h3>
+
                 <p>
-                    Your comfort, safety, and satisfaction
-                    are always our priority.
+                    We focus on contemporary dental
+                    treatment techniques and protocols.
                 </p>
+
             </div>
 
 
             <div class="why-card">
-                <div class="why-icon">💰</div>
-                <h3>Affordable Care</h3>
+
+                <span>04</span>
+
+                <h3>
+                    Trusted by Patients
+                </h3>
+
                 <p>
-                    Quality dental treatment at transparent
-                    and reasonable prices.
+                    A 4.9-star Google rating across more
+                    than 167 patient reviews.
                 </p>
+
             </div>
 
         </div>
@@ -335,229 +693,82 @@
 </section>
 
 
-<!-- ================= DOCTOR ================= -->
+<!-- =====================================================
+     PROCESS
+===================================================== -->
 
-<section class="doctor section">
-
-    <div class="container doctor-grid">
-
-        <div class="doctor-text">
-
-            <p class="section-label">MEET YOUR DENTIST</p>
-
-            <h2>
-                Dr. Sarah Sharma
-            </h2>
-
-            <h4>BDS, MDS — Chief Dentist</h4>
-
-            <p>
-                Dr. Sarah Sharma is an experienced dentist dedicated
-                to providing comfortable and high-quality dental care.
-            </p>
-
-            <p>
-                Her approach combines modern dentistry with
-                personalized treatment plans for every patient.
-            </p>
-
-            <a href="#appointment" class="primary-btn">
-                Meet Our Dentist
-            </a>
-
-        </div>
-
-
-        <div class="doctor-image">
-
-            <img
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80"
-                alt="Dentist"
-            >
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= APPOINTMENT ================= -->
-
-<section class="appointment section" id="appointment">
-
-    <div class="container appointment-grid">
-
-        <div class="appointment-info">
-
-            <p class="section-label">BOOK YOUR VISIT</p>
-
-            <h2>
-                Schedule Your
-                <span>Appointment</span>
-            </h2>
-
-            <p>
-                Take the first step towards a healthier,
-                brighter smile.
-            </p>
-
-            <div class="appointment-contact">
-
-                <div>
-                    <strong>📞 Phone</strong>
-                    <p>+91 98765 43210</p>
-                </div>
-
-                <div>
-                    <strong>📧 Email</strong>
-                    <p>hello@smilecare.com</p>
-                </div>
-
-                <div>
-                    <strong>📍 Address</strong>
-                    <p>123 Main Road, Pune, Maharashtra</p>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="appointment-form">
-
-            <form>
-
-                <div class="form-row">
-
-                    <input
-                        type="text"
-                        placeholder="Your Name"
-                        required
-                    >
-
-                    <input
-                        type="tel"
-                        placeholder="Phone Number"
-                        required
-                    >
-
-                </div>
-
-                <div class="form-row">
-
-                    <input
-                        type="email"
-                        placeholder="Email Address"
-                    >
-
-                    <select required>
-
-                        <option value="">
-                            Select Service
-                        </option>
-
-                        <option>
-                            General Dentistry
-                        </option>
-
-                        <option>
-                            Teeth Whitening
-                        </option>
-
-                        <option>
-                            Root Canal
-                        </option>
-
-                        <option>
-                            Dental Implants
-                        </option>
-
-                        <option>
-                            Kids Dentistry
-                        </option>
-
-                    </select>
-
-                </div>
-
-                <input
-                    type="date"
-                    required
-                >
-
-                <textarea
-                    rows="5"
-                    placeholder="Tell us about your concern..."
-                ></textarea>
-
-                <button type="submit" class="primary-btn">
-                    Request Appointment
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section class="contact section" id="contact">
+<section class="process-section">
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="process-heading">
 
-            <p class="section-label">GET IN TOUCH</p>
+            <p class="small-label">
+                YOUR VISIT
+            </p>
 
-            <h2>Visit Our Dental Clinic</h2>
+            <h2>
+                Simple from
+                <em>start to smile.</em>
+            </h2>
 
         </div>
 
 
-        <div class="contact-grid">
+        <div class="process-grid">
 
-            <div class="contact-card">
+            <div class="process-item">
 
-                <div class="contact-icon">📍</div>
+                <span>01</span>
 
-                <h3>Our Location</h3>
-
-                <p>
-                    123 Main Road,<br>
-                    Pune, Maharashtra 411001
-                </p>
-
-            </div>
-
-
-            <div class="contact-card">
-
-                <div class="contact-icon">📞</div>
-
-                <h3>Call Us</h3>
-
-                <p>
-                    +91 98765 43210
-                </p>
+                <div>
+                    <h3>Book</h3>
+                    <p>
+                        Call us and schedule your visit.
+                    </p>
+                </div>
 
             </div>
 
 
-            <div class="contact-card">
+            <div class="process-item">
 
-                <div class="contact-icon">🕒</div>
+                <span>02</span>
 
-                <h3>Opening Hours</h3>
+                <div>
+                    <h3>Consult</h3>
+                    <p>
+                        Discuss your concerns with our dentist.
+                    </p>
+                </div>
 
-                <p>
-                    Mon – Sat<br>
-                    9:00 AM – 8:00 PM
-                </p>
+            </div>
+
+
+            <div class="process-item">
+
+                <span>03</span>
+
+                <div>
+                    <h3>Understand</h3>
+                    <p>
+                        Get a clear explanation of your options.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <span>04</span>
+
+                <div>
+                    <h3>Smile</h3>
+                    <p>
+                        Begin the right treatment for you.
+                    </p>
+                </div>
 
             </div>
 
@@ -568,19 +779,346 @@
 </section>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- =====================================================
+     REVIEWS
+===================================================== -->
+
+<section class="reviews-section" id="reviews">
+
+    <div class="container">
+
+        <div class="reviews-top">
+
+            <div>
+
+                <p class="small-label">
+                    PATIENT EXPERIENCES
+                </p>
+
+                <h2>
+                    Loved by the
+                    <em>people we treat.</em>
+                </h2>
+
+            </div>
+
+            <div class="big-rating">
+
+                <strong>4.9</strong>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <span>
+                    Based on 167 reviews
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="reviews-grid">
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “The entire staff is incredibly
+                    empathetic, gentle, and reassuring.
+                    I highly recommend them to anyone
+                    looking for quality dental treatment.”
+                </p>
+
+                <div class="review-author">
+
+                    <div class="author-circle">
+                        R
+                    </div>
+
+                    <div>
+                        <strong>
+                            Rushikesh Kendre
+                        </strong>
+
+                        <span>
+                            Verified Patient
+                        </span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Dr. Shrikrishna Munde is very friendly,
+                    professional, and explains the treatment
+                    process clearly. The clinic is clean and
+                    the experience was excellent.”
+                </p>
+
+                <div class="review-author">
+
+                    <div class="author-circle">
+                        N
+                    </div>
+
+                    <div>
+                        <strong>
+                            Nivedita Puri
+                        </strong>
+
+                        <span>
+                            Verified Patient
+                        </span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “The best dentist for anyone with dental
+                    anxiety. The clinic completely changed
+                    my mindset about dental visits.”
+                </p>
+
+                <div class="review-author">
+
+                    <div class="author-circle">
+                        S
+                    </div>
+
+                    <div>
+                        <strong>
+                            Sourabh Tiware
+                        </strong>
+
+                        <span>
+                            Verified Patient
+                        </span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LOCATION / CONTACT
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-content">
+
+            <p class="small-label">
+                VISIT SHREE HEALTH & DENTAL STUDIO
+            </p>
+
+            <h2>
+                Your next smile
+                <em>starts here.</em>
+            </h2>
+
+            <p>
+                Have a dental concern or simply want to
+                get your teeth checked? Get in touch with
+                our team today.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+
+                    <span class="contact-icon">
+                        ⌖
+                    </span>
+
+                    <div>
+
+                        <small>LOCATION</small>
+
+                        <p>
+                            Sunscape Apartment,
+                            Dr Babasaheb Ambedkar Marg,
+                            Near Akurdi Railway Station Rd,
+                            Nigdi, Pimpri-Chinchwad,
+                            Maharashtra 411044
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="contact-icon">
+                        ☎
+                    </span>
+
+                    <div>
+
+                        <small>CALL US</small>
+
+                        <a href="tel:08857808384">
+                            088578 08384
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-buttons">
+
+                <a
+                    href="tel:08857808384"
+                    class="primary-button"
+                >
+                    Book Appointment ↗
+                </a>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Shree+Health+%26+Dental+Studio+Nigdi+Pimpri-Chinchwad"
+                    target="_blank"
+                    class="outline-button"
+                >
+                    Get Directions
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="map-card">
+
+            <div class="map-content">
+
+                <div class="map-pin">
+                    +
+                </div>
+
+                <h3>
+                    Shree Health
+                    <br>
+                    & Dental Studio
+                </h3>
+
+                <p>
+                    Near Akurdi Railway Station
+                </p>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Shree+Health+%26+Dental+Studio+Nigdi+Pimpri-Chinchwad"
+                    target="_blank"
+                >
+                    Open in Google Maps →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="final-cta">
+
+    <div class="container">
+
+        <p class="small-label">
+            READY WHEN YOU ARE
+        </p>
+
+        <h2>
+            Give your smile
+            <br>
+            the care it deserves.
+        </h2>
+
+        <a
+            href="tel:08857808384"
+            class="white-button"
+        >
+            Schedule Your Visit
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
-    <div class="container footer-content">
+    <div class="container footer-top">
 
         <div class="footer-brand">
 
-            <h2>🦷 SmileCare</h2>
+            <a href="#home" class="logo">
+
+                <div class="logo-mark">
+                    <span>✦</span>
+                </div>
+
+                <div class="logo-text">
+
+                    <strong>Shree</strong>
+
+                    <span>
+                        Health & Dental Studio
+                    </span>
+
+                </div>
+
+            </a>
 
             <p>
-                Your trusted partner for
-                better dental health.
+                Modern dentistry with a human touch.
             </p>
 
         </div>
@@ -588,38 +1126,221 @@
 
         <div class="footer-links">
 
-            <h3>Quick Links</h3>
+            <div>
 
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#appointment">Appointment</a>
+                <small>EXPLORE</small>
 
-        </div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Treatments</a>
+                <a href="#reviews">Reviews</a>
+
+            </div>
 
 
-        <div class="footer-links">
+            <div>
 
-            <h3>Contact</h3>
+                <small>CONTACT</small>
 
-            <p>+91 98765 43210</p>
-            <p>hello@smilecare.com</p>
-            <p>Pune, Maharashtra</p>
+                <a href="tel:08857808384">
+                    088578 08384
+                </a>
+
+                <a href="#contact">
+                    Nigdi, Pimpri-Chinchwad
+                </a>
+
+            </div>
 
         </div>
 
     </div>
 
 
-    <div class="copyright">
+    <div class="container footer-bottom">
 
-        © 2026 SmileCare Dental Clinic.
-        All Rights Reserved.
+        <span>
+            © 2026 Shree Health & Dental Studio
+        </span>
+
+        <span>
+            Designed with care.
+        </span>
 
     </div>
 
 </footer>
 
+
+<!-- =====================================================
+     FLOATING ACTIONS
+===================================================== -->
+
+<div class="floating-actions">
+
+    <a
+        href="tel:08857808384"
+        class="floating-call"
+        aria-label="Call clinic"
+    >
+        ☎
+    </a>
+
+    <a
+        href="https://wa.me/918857808384?text=Hello%20Shree%20Health%20%26%20Dental%20Studio%2C%20I%20would%20like%20to%20book%20an%20appointment."
+        target="_blank"
+        class="floating-whatsapp"
+        aria-label="WhatsApp clinic"
+    >
+        W
+    </a>
+
+</div>
+
+
+<script>
+
+    /* ==========================================
+       NAVBAR
+    ========================================== */
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+
+    });
+
+
+    /* ==========================================
+       MOBILE MENU
+    ========================================== */
+
+    const menuToggle =
+        document.getElementById("menuToggle");
+
+    const mobileMenu =
+        document.getElementById("mobileMenu");
+
+    menuToggle.addEventListener("click", () => {
+
+        menuToggle.classList.toggle("open");
+
+        mobileMenu.classList.toggle("open");
+
+    });
+
+
+    document.querySelectorAll(".mobile-menu a")
+        .forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                menuToggle.classList.remove("open");
+
+                mobileMenu.classList.remove("open");
+
+            });
+
+        });
+
+
+    /* ==========================================
+       REVEAL ANIMATIONS
+    ========================================== */
+
+    const revealElements =
+        document.querySelectorAll(
+            ".service-card, .why-card, .review-card, .process-item, .about-content, .about-image"
+        );
+
+
+    const observer =
+        new IntersectionObserver(
+            (entries) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("revealed");
+
+                    }
+
+                });
+
+            },
+            {
+                threshold: 0.12
+            }
+        );
+
+
+    revealElements.forEach(element => {
+
+        element.classList.add("reveal");
+
+        observer.observe(element);
+
+    });
+
+
+    /* ==========================================
+       ACTIVE NAVIGATION
+    ========================================== */
+
+    const sections =
+        document.querySelectorAll("section[id]");
+
+    const navLinks =
+        document.querySelectorAll(
+            ".desktop-nav a"
+        );
+
+
+    window.addEventListener("scroll", () => {
+
+        let current = "";
+
+        sections.forEach(section => {
+
+            const sectionTop =
+                section.offsetTop - 180;
+
+            if (
+                window.scrollY >= sectionTop
+            ) {
+
+                current = section.getAttribute("id");
+
+            }
+
+        });
+
+
+        navLinks.forEach(link => {
+
+            link.classList.remove("active");
+
+            if (
+                link.getAttribute("href") ===
+                "#" + current
+            ) {
+
+                link.classList.add("active");
+
+            }
+
+        });
+
+    });
+
+</script>
 
 </body>
 </html>
